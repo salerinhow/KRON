@@ -107,6 +107,7 @@ void ganharXP(Personagem *j) {
     }
 }
 
+// ===== MAPA =====
 void desenharMapa(char mapa[5][5]) {
     int i, k;
     for (i = 0; i < 5; i++) {
