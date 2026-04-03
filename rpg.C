@@ -117,7 +117,6 @@ void desenharMapa(char mapa[5][5]) {
     }
 }
 
-// ===== MAIN =====
 int main() {
     srand(time(NULL));
 
