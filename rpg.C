@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-// ===== STRUCT =====
 typedef struct {
     int vida;
     int ataque;
@@ -13,7 +12,6 @@ typedef struct {
     int pocao;
 } Personagem;
 
-// ===== FUNCOES =====
 void limpar() {
     system("cls"); 
 }
@@ -61,7 +59,6 @@ void usarPocao(Personagem *j) {
     }
 }
 
-// ===== SKILLS =====
 void skill(Personagem *j, Personagem *i) {
     if (j->classe == 1) {
         int dano = rand() % 30 + 20;
