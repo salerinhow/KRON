@@ -15,7 +15,7 @@ typedef struct {
 
 // ===== FUNCOES =====
 void limpar() {
-    system("cls"); // Linux: clear
+    system("cls"); 
 }
 
 void barraVida(int vida) {
@@ -117,14 +117,13 @@ void desenharMapa(char mapa[5][5]) {
     }
 }
 
-// ===== MAIN =====
 int main() {
     srand(time(NULL));
 
     Personagem jogador;
     int classe;
 
-    printf("==== EKOS: FURIA DA FLORESTA ====\n\n");
+    printf("==== KRON ====\n\n");
 
     printf("Escolha sua classe:\n\n");
 
