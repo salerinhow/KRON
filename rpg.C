@@ -240,7 +240,7 @@ int main() {
         }
 
         if (jogador.vida > 0) {
-            printf("\n[VICTORIA] Inimigo derrotado!\n");
+            printf("\n[VITORIA] Inimigo derrotado!\n");
             ganharXP(&jogador);
             getchar(); getchar();
         }
